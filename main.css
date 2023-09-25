@@ -1,5 +1,5 @@
 *{
-    cursor: none;
+
     font-family: Montserrat;
 }
 
@@ -203,13 +203,13 @@ h2{
     background-position: right;
     margin: 20px;
     transition: all 200ms ease;
-    cursor: none;
+
   }
   
   .pressable-2:hover {
     background-position: left;
     color: #FAFAFF;
-    cursor: none;
+
   }
   
 
