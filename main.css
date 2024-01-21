@@ -47,11 +47,11 @@ a{
 }
 
 a img {
-  transition: filter 0.3s ease-in-out; /* Smooth transition */
+  transition: filter 0.3s ease-in-out;
 }
 
 a img:hover {
-  filter: brightness(70%);  /* Reduce brightness to make image darker */
+  filter: brightness(70%); 
 }
 .icons{
   display: flex;
@@ -69,7 +69,6 @@ a img:hover {
 
 
 .about-me-text {
-    /* Add any styling here, like padding or width */
     width: 50%;
     padding: 20px;
 }
@@ -92,7 +91,7 @@ a img:hover {
 
 .elements {
     margin-bottom: 5vh;
-    z-index: 2;  /* if needed, to appear above the canvas */
+    z-index: 2;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,8 +119,8 @@ a img:hover {
   .large-header {
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Horizontally center the child elements */
-    justify-content: center;  /* Vertically center the child elements */
+    align-items: center;  
+    justify-content: center;
     height: 100vh;
   }
   
@@ -212,7 +211,25 @@ h2{
 
   }
   
+  .pressable-2-pr  {
+    border: 2px solid #008080;
+    padding: 10px;
+    color: #008080;
+    
+    font-weight: 800;
+    background: linear-gradient(to left, #00000000, #00000000 50%, #008080 50%, #008080);
+    background-size: 200% auto;
+    background-position: right;
+    margin: 20px;
+    transition: all 200ms ease;
 
+  }
+  
+  .pressable-2-pr:hover {
+    background-position: left;
+    color: #FAFAFF;
+
+  }
 
 
   .service {
@@ -375,14 +392,11 @@ h2{
 
 
 
-
-
-/* Center buttons horizontally */
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 
@@ -422,13 +436,7 @@ h2{
 }
 
 
-/* Existing styles */
 
-/* ... Your existing styles go here ... */
-
-/* Media queries */
-
-/* For iPads */
 @media (max-width: 1024px) {
   .about-me-section {
     flex-direction: column;
@@ -477,17 +485,13 @@ h2{
     padding: 0 3vh;
   }
   .filter-button {
-    padding: 7px 10px;  /* Even smaller padding */
-    font-size: 10px;  /* Even smaller font size */
+    padding: 7px 10px;  
+    font-size: 10px;  
   }
 
   
 }
 
-/* Cursor */
-/* ... Your existing cursor styles go here ... */
-
-/* For iPads and mobile devices: Show the default cursor */
 @media (max-width: 1024px) {
   body {
     cursor: auto !important;
@@ -496,8 +500,8 @@ h2{
     display: none !important;
   }
   .filter-button {
-    padding: 7px 10px;  /* Even smaller padding */
-    font-size: 10px;  /* Even smaller font size */
+    padding: 7px 10px;  
+    font-size: 10px;  
   }
 }
 
