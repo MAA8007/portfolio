@@ -75,12 +75,12 @@ a img:hover {
 
 .about-me-pic{
     width:30vh;
-    height: 30vh;
+    height: 40vh;
     margin-top: 10px;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-    background-image: url('Screenshot 2023-09-03 at 1.11.12 PM.png');
+    background-image: url('2464E5C3-3D82-499A-A953-B52FE6F389E6_1_201_a.jpeg');
 }
 .nav-link:hover {
     color: #00a1a1 !important;
