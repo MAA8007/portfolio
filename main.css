@@ -582,7 +582,7 @@ h2{
   }
   
 .carousel-inner{
-  height: 350px; 
+  height: 25pc; 
 
 }
 
@@ -695,6 +695,12 @@ h2{
   .contact {
     padding: 0 5vh;
   }
+
+  .carousel-inner{
+    padding-left: 1pc;
+    height: 55pc; 
+
+  }
 }
 
 /* For mobile devices */
@@ -725,6 +731,11 @@ h2{
     font-size: 10px;  
   }
 
+  .carousel-inner{
+    padding-left: 1pc;
+    height: 55pc; 
+  }
+
   
 }
 
@@ -738,6 +749,11 @@ h2{
   .filter-button {
     padding: 7px 10px;  
     font-size: 10px;  
+  }
+
+  .carousel-inner{
+    padding-left: 1pc;
+    height: 55pc; 
   }
 }
 
