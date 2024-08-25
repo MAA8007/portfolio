@@ -34,7 +34,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-    background-image: url('photo-1514454529242-9e4677563e7b.avif');
+    background-image: url('images/photo-1514454529242-9e4677563e7b.avif');
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,7 @@ a img:hover {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-    background-image: url('2464E5C3-3D82-499A-A953-B52FE6F389E6_1_201_a.jpeg');
+    background-image: url('images/2464E5C3-3D82-499A-A953-B52FE6F389E6_1_201_a.jpeg');
 }
 .nav-link:hover {
     color: #00a1a1 !important;
